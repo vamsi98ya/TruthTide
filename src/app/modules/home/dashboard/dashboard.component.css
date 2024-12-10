@@ -1,0 +1,60 @@
+.main-content {
+    background: #f2f2f2;
+}
+
+.article {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article-image {
+    height: 100%;
+    width:80%;
+    background: #e0e0e0;
+    font-size: 14px;
+    color: #999;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+
+.article-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+}
+
+.postedTime{
+    color: rgb(129, 129, 129);
+}
+
+.vote-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.vote-buttons button:hover {
+    background: #0056b3;
+}
+
+.statistics {
+    font-size: 16px;
+    color: #333;
+}

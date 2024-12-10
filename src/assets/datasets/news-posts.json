@@ -1,0 +1,74 @@
+[
+    {
+      "Header": "Moon Exploration",
+      "Description": "ISRO discovers water and Ice on the moon",
+      "Image": "assets/Moon-Exploration.png",
+      "NameOfPerson": "Lila Venn",
+      "PostedTime": "2 hours ago",
+      "True":65,
+      "Fake":35,
+      "News":80,
+      "NotNews": 20,
+      "Prediction": "True"
+    },
+    {
+      "Header": "Chocolates as part of the diet",
+      "Description": "New study proves consumption of chocolates cause rapid weight loss.",
+      "Image": "assets/Chocolates as part of the diet.png",
+      "NameOfPerson": "Jace Runo",
+      "PostedTime": "7 minutes ago",
+      "True":15,
+      "Fake":85,
+      "News":60,
+      "NotNews": 40,
+      "Prediction": "Fake"
+    },
+    {
+      "Header": "END OF THE PANDEMIC",
+      "Description": "The WORLD HEALTH ORGANIZATION declares end of the COVID-19 Pandemic",
+      "Image": "assets/END OF THE PANDEMIC.png",
+      "NameOfPerson": "Max Elber",
+      "PostedTime": "5 hours ago",
+      "True":75,
+      "Fake":25,
+      "News":50,
+      "NotNews": 50,
+      "Prediction": "True"
+    },
+    {
+      "Header": "Restrictions over Internet",
+      "Description": "Government announces plans to ban internet access for people under 18",
+      "Image": "assets/Restrictions over Internet.png",
+      "NameOfPerson": "Mira Zeff",
+      "PostedTime": "3 hours ago",
+      "True":55,
+      "Fake":55,
+      "News":23,
+      "NotNews": 77,
+      "Prediction": "Fake"
+    },
+    {
+      "Header": "Pump in EV sales",
+      "Description": "Electric Vehicle Sales Surpass $1 Trillion Globally",
+      "Image": "assets/Pump in EV sales.png",
+      "NameOfPerson": "Nia Tork",
+      "PostedTime": "32 minutes ago",
+      "True":59,
+      "Fake":41,
+      "News":49,
+      "NotNews": 51,
+      "Prediction": "True"
+    },
+    {
+      "Header": "Pill of Immortality",
+      "Description": "Scientists develop a pill that grants immortality",
+      "Image": "assets/Pill of Immortality.png",
+      "NameOfPerson": "Finn Kalo",
+      "PostedTime": "13 minutes ago",
+      "True":90,
+      "Fake":10,
+      "News":10,
+      "NotNews": 90,
+      "Prediction": "Fake"
+    }
+    ]

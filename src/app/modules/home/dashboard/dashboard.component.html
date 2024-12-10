@@ -1,0 +1,40 @@
+<main class="main-content"> 
+    <!--for loop should be written here-->
+    
+    @for (post of newsposts; track post; let  i = $index){
+    <div class="container" >      
+        <section class="article" style="padding-bottom: 0px; margin-bottom: 0px;">           
+            <h2 class="article-title">{{post.Header}}</h2>           
+            <div class="text-start">{{post.Description}}</div>      
+            <div class="text-center"><img class="article-image" [src]="post.Image"> </div>          
+            <div class="text-start">   
+                <i class="fas fa-user"></i> {{post.NameOfPerson}}
+                <small class="postedTime" style="float: right;">{{post.PostedTime}}</small>
+                    
+                <div class="d-flex" role="group" aria-label="Basic example" style="margin-top: 20px;">
+                    <button type="button" (click)="TrueBtnClick(i)" style="background-color: rgb(216, 215, 215);" class="btn flex-grow-1">TRUE</button>&nbsp;
+                    <button type="button" (click)="FakeBtnClick(i)" style="background-color:  rgb(216, 215, 215);" class="btn flex-grow-1">FAKE</button>&nbsp;
+                    <button type="button" (click)="NewsBtnClick(i)" style="background-color:  rgb(216, 215, 215);" class="btn flex-grow-1">NEWS</button>&nbsp;
+                    <button type="button" (click)="NotNewsBtnClick(i)" style="background-color:  rgb(216, 215, 215);" class="btn flex-grow-1">NOT NEWS</button>
+                  </div>
+                             
+
+                  <div class="d-flex statistics" role="group" aria-label="Basic example">
+                    <small class="flex-grow-1">TRUE: {{post.True}}%</small>
+                    <small  class="flex-grow-1">FAKE: {{post.Fake}}%</small>
+                    <small  class="flex-grow-1">NEWS: {{post.News}}%</small>
+                    <small  class="flex-grow-1">NOT NEWS: {{post.NotNews}}%</small>
+                  </div>
+                  <div style="margin-top: 10px;">
+                    @if(post.Prediction == "True"){
+                        <strong>AI Prediction: <span class="btn btn-success btn-sm" style="pointer-events: none;">{{post.Prediction}}</span></strong> 
+                    }
+                    @else{
+                        <strong>AI Prediction: <span class="btn btn-danger btn-sm" style="pointer-events: none;">{{post.Prediction}}</span></strong> 
+                    }
+                </div>            
+            </div>       
+        </section>
+    </div>  
+    }
+</main>
